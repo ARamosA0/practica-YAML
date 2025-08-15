@@ -1,0 +1,56 @@
+# Datos de tipo texto
+
+nombre: Aldo Ramos Aro # linea simple
+
+nombreString: 'Aldo Ramos Aro' # soporte entre commillas simples
+
+mensaje: "Hola, \neste es un saludo desde el mundo de la programación" # entre commillas dobles tiene soporte a caracteres especiales
+
+descripcion: |      # Se mantienen los saltos de linea
+  Esto es una descripción sobre desarrollo de software.
+  Se especializa en backend, frontend y arquitectura de sistemas.
+  Apasionado por resolver problemas con código.
+
+descripcion_lineal: >   # Mantiene una unica linea
+  Esto es una descripción sobre ingeniería de software,
+  enfocada en optimización de procesos y automatización.
+
+# Datos de tipo numerico
+
+edad: 27 # entero
+
+decimal_altura: 1.69 # valor decimal
+
+# Valores Booleanos
+
+isCompiling: TRUE
+hasErrors: FALSE
+
+# Expresion corta
+
+debugMode: on
+maintenanceMode: off
+
+# nulleables
+#
+# las 3 son equivalencias
+
+currentUser: null
+activeSession: null
+pendingRequest: ~
+
+# Arreglo
+
+# Lista o arreglo de bloque 
+colores:
+  - azul
+  - negro
+  - verde
+
+# Objetos
+
+# Mapeo en bloque
+persona:
+  nombre: Aldo Ramos Aro
+  edad: 28
+  ciudad: 'Arequipa'

@@ -1,0 +1,78 @@
+
+# Datos de tipo texto
+
+nombre: Fernando # linea simple
+
+nombreString: 'Fernando' # soporte entre commillas simples
+
+mensaje: "Hola, \nsaludo" # entre commillas dobles tiene soporte a caracteres especiales
+
+descripcion: |      # Se mantienen los saltos de linea
+  Esto es una descripcion.
+  Tiene una segunda linea
+  y se mantiene
+
+descripcion_lineal: >   # Mantiene una unica linea
+  Esto es una descripcion.
+  Tiene una segunda linea
+  y se mantiene
+
+
+# Datos de tipo numerico
+
+edad: 30 # entero
+
+decimal_altura: 1.70 # valor decimal
+
+permisos: 0775 # valor octal (oermisos)
+
+color: 0xFFEECC # valor hexadecimal
+
+
+# Valores Booleanos
+
+isEmpty: TRUE
+isValid: FALSE
+
+# Expresion corta
+
+isEnabled: on
+isDisabled: off
+
+# nulleables
+#
+# las 3 son equivalencias
+
+hasData: null
+hasInfo: null
+hasData3: ~
+
+# Arreglo
+
+# Lista o arreglo de bloque 
+colores:
+  - azul
+  - negro
+  - blanco
+
+# lista de linea
+frutas: ['manzana', 'naranja', 'platano']
+
+# Lista de objetos
+usuarios:
+  - nombre: Pedro
+    edad: 25
+  - nombre: Fernando
+    edad: 30
+
+# Objetos
+
+# Mapeo en bloque
+persona:
+  nombre: Fernando
+  edad: 30
+  ciudad: 'Madrid'
+
+# Mapeo en linea
+persona2: { nombre: Carlos, edad: 20}
+
