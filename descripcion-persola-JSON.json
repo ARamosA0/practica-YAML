@@ -1,0 +1,22 @@
+{
+    "nombre": "Aldo Ramos Aro",
+    "nombreString": "Aldo Ramos Aro",
+    "mensaje": "Hola, \neste es un saludo desde el mundo de la programación",
+    "descripcion": "Esto es una descripción sobre desarrollo de software.\nSe especializa en backend, frontend y arquitectura de sistemas.\nApasionado por resolver problemas con código.",
+    "descripcion_lineal": "Esto es una descripción sobre ingeniería de software, enfocada en optimización de procesos y automatización.",
+    "edad": 27,
+    "decimal_altura": 1.69,
+    "isCompiling": true,
+    "hasErrors": false,
+    "debugMode": "on",
+    "maintenanceMode": "off",
+    "currentUser": null,
+    "activeSession": null,
+    "pendingRequest": null,
+    "colores": ["azul", "negro", "verde"],
+    "persona": {
+        "nombre": "Aldo Ramos Aro",
+        "edad": 28,
+        "ciudad": "Arequipa"
+    }
+}

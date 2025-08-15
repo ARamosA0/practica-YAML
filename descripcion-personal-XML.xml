@@ -1,0 +1,44 @@
+<root>
+    <!-- Datos de tipo texto -->
+    <nombre>Aldo Ramos Aro</nombre>
+    <nombreString>Aldo Ramos Aro</nombreString>
+    <mensaje>Hola, 
+este es un saludo desde el mundo de la programación</mensaje>
+    <descripcion>
+        Esto es una descripción sobre desarrollo de software.
+        Se especializa en backend, frontend y arquitectura de sistemas.
+        Apasionado por resolver problemas con código.
+    </descripcion>
+    <descripcion_lineal>Esto es una descripción sobre ingeniería de software, enfocada en optimización de procesos y automatización.</descripcion_lineal>
+
+    <!-- Datos de tipo numérico -->
+    <edad>27</edad>
+    <decimal_altura>1.69</decimal_altura>
+
+    <!-- Valores Booleanos -->
+    <isCompiling>true</isCompiling>
+    <hasErrors>false</hasErrors>
+
+    <!-- Expresiones cortas -->
+    <debugMode>on</debugMode>
+    <maintenanceMode>off</maintenanceMode>
+
+    <!-- Nulleables -->
+    <currentUser xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <activeSession xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <pendingRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+
+    <!-- Arreglo -->
+    <colores>
+        <color>azul</color>
+        <color>negro</color>
+        <color>verde</color>
+    </colores>
+
+    <!-- Objetos -->
+    <persona>
+        <nombre>Aldo Ramos Aro</nombre>
+        <edad>28</edad>
+        <ciudad>Arequipa</ciudad>
+    </persona>
+</root>

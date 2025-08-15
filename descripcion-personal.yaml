@@ -1,25 +1,23 @@
 # Datos de tipo texto
 
-nombre: Aldo Ramos Aro # linea simple
+nombre: Aldo Ramos Aro 
 
-nombreString: 'Aldo Ramos Aro' # soporte entre commillas simples
-
-mensaje: "Hola, \neste es un saludo desde el mundo de la programación" # entre commillas dobles tiene soporte a caracteres especiales
-
-descripcion: |      # Se mantienen los saltos de linea
+nombreString: 'Aldo Ramos Aro'
+mensaje: "Hola, \neste es un saludo desde el mundo de la programación" 
+descripcion: |      
   Esto es una descripción sobre desarrollo de software.
   Se especializa en backend, frontend y arquitectura de sistemas.
   Apasionado por resolver problemas con código.
 
-descripcion_lineal: >   # Mantiene una unica linea
+descripcion_lineal: >   
   Esto es una descripción sobre ingeniería de software,
-  enfocada en optimización de procesos y automatización.
+  enfocada n optimización de procesos y automatización.
 
 # Datos de tipo numerico
 
-edad: 27 # entero
+edad: 27 
 
-decimal_altura: 1.69 # valor decimal
+decimal_altura: 1.69 
 
 # Valores Booleanos
 
