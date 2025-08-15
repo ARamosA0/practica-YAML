@@ -9,7 +9,7 @@ este es un saludo desde el mundo de la programación</mensaje>
         Se especializa en backend, frontend y arquitectura de sistemas.
         Apasionado por resolver problemas con código.
     </descripcion>
-    <descripcion_lineal>Esto es una descripción sobre ingeniería de software, enfocada en optimización de procesos y automatización.</descripcion_lineal>
+    <descripcion_lineal>Esto es una descripción sobre ingeniería de software, enfocada n optimización de procesos y automatización.</descripcion_lineal>
 
     <!-- Datos de tipo numérico -->
     <edad>27</edad>
@@ -23,11 +23,6 @@ este es un saludo desde el mundo de la programación</mensaje>
     <debugMode>on</debugMode>
     <maintenanceMode>off</maintenanceMode>
 
-    <!-- Nulleables -->
-    <currentUser xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-    <activeSession xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-    <pendingRequest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
-
     <!-- Arreglo -->
     <colores>
         <color>azul</color>
@@ -36,9 +31,40 @@ este es un saludo desde el mundo de la programación</mensaje>
     </colores>
 
     <!-- Objetos -->
-    <persona>
-        <nombre>Aldo Ramos Aro</nombre>
-        <edad>28</edad>
-        <ciudad>Arequipa</ciudad>
-    </persona>
+    <lenguajes>
+        <lenguaje>Python</lenguaje>
+        <lenguaje>JavaScript</lenguaje>
+        <lenguaje>Go</lenguaje>
+    </lenguajes>
+
+    <frameworks>
+        <framework>Django</framework>
+        <framework>React</framework>
+        <framework>Spring Boot</framework>
+    </frameworks>
+
+    <desarrolladores>
+        <desarrollador>
+            <nombre>a</nombre>
+            <lenguaje_favorito>C</lenguaje_favorito>
+            <edad>54</edad>
+        </desarrollador>
+        <desarrollador>
+            <nombre>Aldo Ramos Aro</nombre>
+            <lenguaje_favorito>Python</lenguaje_favorito>
+            <edad>28</edad>
+        </desarrollador>
+    </desarrolladores>
+
+    <proyecto>
+        <nombre>Sistema de Gestión Académica</nombre>
+        <lenguaje_principal>TypeScript</lenguaje_principal>
+        <repositorio>https://github.com/aldo-ramos/sga</repositorio>
+    </proyecto>
+
+    <proyecto2>
+        <nombre>API de E-commerce</nombre>
+        <lenguaje_principal>Go</lenguaje_principal>
+        <repositorio>https://github.com/aldo-ramos/ecommerce-api</repositorio>
+    </proyecto2>
 </root>

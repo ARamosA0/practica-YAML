@@ -29,14 +29,6 @@ hasErrors: FALSE
 debugMode: on
 maintenanceMode: off
 
-# nulleables
-#
-# las 3 son equivalencias
-
-currentUser: null
-activeSession: null
-pendingRequest: ~
-
 # Arreglo
 
 # Lista o arreglo de bloque 
@@ -47,8 +39,31 @@ colores:
 
 # Objetos
 
+# Lista o arreglo de bloque 
+lenguajes:
+  - Python
+  - JavaScript
+  - Go
+
+# lista de linea
+frameworks: ['Django', 'React', 'Spring Boot']
+
+# Lista de objetos
+desarrolladores:
+  - nombre: a
+    lenguaje_favorito: C
+    edad: 54
+  - nombre: Aldo Ramos Aro
+    lenguaje_favorito: Python
+    edad: 28
+
+# Objetos
+
 # Mapeo en bloque
-persona:
-  nombre: Aldo Ramos Aro
-  edad: 28
-  ciudad: 'Arequipa'
+proyecto:
+  nombre: "Sistema de Gestión Académica"
+  lenguaje_principal: TypeScript
+  repositorio: 'https://github.com/aldo-ramos/sga'
+
+# Mapeo en linea
+proyecto2: { nombre: "API de E-commerce", lenguaje_principal: Go, repositorio: "https://github.com/aldo-ramos/ecommerce-api" }

@@ -3,20 +3,36 @@
     "nombreString": "Aldo Ramos Aro",
     "mensaje": "Hola, \neste es un saludo desde el mundo de la programación",
     "descripcion": "Esto es una descripción sobre desarrollo de software.\nSe especializa en backend, frontend y arquitectura de sistemas.\nApasionado por resolver problemas con código.",
-    "descripcion_lineal": "Esto es una descripción sobre ingeniería de software, enfocada en optimización de procesos y automatización.",
+    "descripcion_lineal": "Esto es una descripción sobre ingeniería de software, enfocada n optimización de procesos y automatización.",
     "edad": 27,
     "decimal_altura": 1.69,
     "isCompiling": true,
     "hasErrors": false,
     "debugMode": "on",
     "maintenanceMode": "off",
-    "currentUser": null,
-    "activeSession": null,
-    "pendingRequest": null,
     "colores": ["azul", "negro", "verde"],
-    "persona": {
-        "nombre": "Aldo Ramos Aro",
-        "edad": 28,
-        "ciudad": "Arequipa"
+    "lenguajes": ["Python", "JavaScript", "Go"],
+    "frameworks": ["Django", "React", "Spring Boot"],
+    "desarrolladores": [
+        {
+            "nombre": "a",
+            "lenguaje_favorito": "C",
+            "edad": 54
+        },
+        {
+            "nombre": "Aldo Ramos Aro",
+            "lenguaje_favorito": "Python",
+            "edad": 28
+        }
+    ],
+    "proyecto": {
+        "nombre": "Sistema de Gestión Académica",
+        "lenguaje_principal": "TypeScript",
+        "repositorio": "https://github.com/aldo-ramos/sga"
+    },
+    "proyecto2": {
+        "nombre": "API de E-commerce",
+        "lenguaje_principal": "Go",
+        "repositorio": "https://github.com/aldo-ramos/ecommerce-api"
     }
 }
